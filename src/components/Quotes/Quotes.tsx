@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import refreshIcon from "/assets/desktop/icon-refresh.svg";
-import moonIcon from "/assets/desktop/icon-moon.svg";
 
 interface IquoteData {
   author: string;
