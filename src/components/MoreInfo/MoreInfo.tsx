@@ -10,7 +10,7 @@ export default function MoreInfo({ timeData, isOpen, hours }: IMoreInfoProps) {
       className={`absolute bottom-0 left-0 w-[100vw] bg-[rgb(255,255,255,0.75)] backdrop-blur-xl transition-transform duration-200 lg:px-14 ${
         hours >= 6 && hours <= 18
           ? "bg-[rgb(255,255,255,0.75)]"
-          : "bg-[rgb(0,0,0,0.60)]"
+          : "bg-[rgb(0,0,0,0.61)]"
       } ${isOpen ? "translate-y-[0%]" : "translate-y-[100%]"}`}
     >
       <ul

@@ -18,8 +18,6 @@ export default function MainComponent() {
 
   const hasMounted = useRef(false);
 
-  console.log(bgImageNightTimeDt);
-
   async function getCountryData() {
     try {
       const response = await axios.get(`https://ipapi.co/json`);
